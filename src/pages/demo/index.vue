@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import {http} from '@/service/base'
+// import {http} from '@/service/base'
 import card from '@/components/card'
 
 export default {
@@ -23,12 +23,12 @@ export default {
     }
   },
 
-  onLoad() {
-    let self = this;
-    http.get('https://www.4slx.com/index/index/foursstoreinfo', {})
-      .then( function(res) {self.logs = res; console.log(self.logs)})
-      .catch( function() {})
-  }
+  // onLoad() {
+  //   let self = this;
+  //   http.get('https://www.4slx.com/index/index/foursstoreinfo', {})
+  //     .then( function(res) {self.logs = res; console.log(self.logs)})
+  //     .catch( function() {})
+  // }
 }
 </script>
 

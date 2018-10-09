@@ -62,7 +62,8 @@ export default {
 
   created () {
     // 调用应用实例的方法获取全局数据
-    this.getUserInfo()
+    // this.getUserInfo()
+    this.$api.user.test({input: 'hello-api'}).then(res => console.log(res))
   }
 }
 </script>

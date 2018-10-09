@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App'
 
 import store from './store'
+import './common'
 
 Vue.prototype.$store = store
 
